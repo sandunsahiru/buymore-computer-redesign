@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 
 const Hero = () => {
   return (
@@ -58,9 +59,11 @@ const Hero = () => {
           {/* Right Content - Image */}
           <div className="relative hidden md:block">
             <div className="relative z-10 rounded-2xl overflow-hidden shadow-2xl transform hover:scale-105 transition-transform duration-500">
-              <img
+              <Image
                 src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800"
                 alt="Computer Setup"
+                width={800}
+                height={600}
                 className="w-full h-auto"
               />
               {/* Overlay gradient */}

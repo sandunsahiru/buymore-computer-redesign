@@ -49,7 +49,7 @@ const Contact = () => {
         <div className="text-center mb-12 md:mb-16">
           <h2 className="section-title">Get In Touch</h2>
           <p className="section-subtitle">
-            Have a question? We're here to help. Reach out to us through any of these channels
+            Have a question? We&apos;re here to help. Reach out to us through any of these channels
           </p>
         </div>
 
