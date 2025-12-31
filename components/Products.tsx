@@ -152,12 +152,8 @@ const Products = () => {
         {/* Shop CTA */}
         <div className="mt-16 text-center">
           <div className="bg-gradient-to-r from-primary to-primary-light rounded-2xl p-8 sm:p-10 md:p-12 text-white relative overflow-hidden">
-            {/* Background pattern */}
-            <div className="absolute inset-0 opacity-10">
-              <div className="absolute inset-0" style={{
-                backgroundImage: `url("data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23ffffff' fill-opacity='1' fill-rule='evenodd'%3E%3Cpath d='M0 40L40 0H20L0 20M40 40V20L20 40'/%3E%3C/g%3E%3C/svg%3E")`,
-              }}></div>
-            </div>
+            {/* Subtle Overlay */}
+            <div className="absolute inset-0 bg-gradient-to-br from-transparent via-white/5 to-transparent"></div>
 
             <div className="relative z-10">
               <h3 className="text-2xl sm:text-3xl font-bold mb-4">Visit Our Online Store</h3>
