@@ -227,7 +227,7 @@ export default function PrivacyPolicy() {
                 Your Rights
               </h2>
               <p className="text-gray-600 leading-relaxed mb-4">
-                Under Sri Lanka's Personal Data Protection Act and our privacy commitments, you have the following rights:
+                Under Sri Lanka&apos;s Personal Data Protection Act and our privacy commitments, you have the following rights:
               </p>
               <ul className="list-disc pl-6 text-gray-600 space-y-2 mb-4">
                 <li>
