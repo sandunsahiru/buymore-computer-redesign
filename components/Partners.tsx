@@ -8,16 +8,16 @@ const Partners = () => {
 
   const partners = [
     {
-      name: 'Alpha Apparel',
-      logo: 'https://buymoretech.lk/wp-content/uploads/2025/02/Alpha-Apperal.png'
+      name: 'Client Partner 1',
+      logo: '/images/client01.png'
     },
     {
-      name: 'BIMT Campus',
-      logo: 'https://buymoretech.lk/wp-content/uploads/2025/02/BIMT-Campus.png'
+      name: 'Client Partner 2',
+      logo: '/images/client02.png'
     },
     {
-      name: 'Client Partner',
-      logo: 'https://buymoretech.lk/wp-content/uploads/2025/02/Untitled-1.png'
+      name: 'Client Partner 3',
+      logo: '/images/client03.png'
     },
   ];
 
