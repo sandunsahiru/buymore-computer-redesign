@@ -65,9 +65,11 @@ const Partners = () => {
                 className="flex-shrink-0 grayscale hover:grayscale-0 transition-all duration-300 opacity-60 hover:opacity-100"
               >
                 <div className="w-40 sm:w-48 md:w-56 h-20 sm:h-24 relative flex items-center justify-center bg-white rounded-lg p-4">
-                  <img
+                  <Image
                     src={partner.logo}
                     alt={partner.name}
+                    width={224}
+                    height={96}
                     className="max-w-full max-h-full object-contain"
                     loading="lazy"
                   />

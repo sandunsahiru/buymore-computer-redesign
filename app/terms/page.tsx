@@ -34,7 +34,7 @@ export default function TermsOfService() {
                 Introduction
               </h2>
               <p className="text-gray-600 leading-relaxed">
-                Welcome to Buymore Computer. These Terms of Service ("Terms")
+                Welcome to Buymore Computer. These Terms of Service (&quot;Terms&quot;)
                 govern your use of our website and services. By accessing or
                 using our services, you agree to be bound by these Terms. If you
                 do not agree with any part of these Terms, you may not access our

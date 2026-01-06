@@ -75,7 +75,7 @@ export default function PrivacyPolicy() {
               </p>
               <ul className="list-disc pl-6 text-gray-600 space-y-2 mb-4">
                 <li>Data shown in the comments form</li>
-                <li>Visitor's IP address</li>
+                <li>Visitor&apos;s IP address</li>
                 <li>Browser user agent string for spam detection</li>
                 <li>Email addresses (hashed for Gravatar service integration)</li>
               </ul>
@@ -278,7 +278,7 @@ export default function PrivacyPolicy() {
                 </li>
                 <li>
                   <strong>Login Cookies:</strong> When you log in, we set up login cookies that
-                  last for two days. If you select "Remember Me," your login will persist for
+                  last for two days. If you select &quot;Remember Me,&quot; your login will persist for
                   two weeks
                 </li>
                 <li>
@@ -306,7 +306,7 @@ export default function PrivacyPolicy() {
               <p className="text-gray-600 leading-relaxed">
                 We may update this Privacy Policy from time to time. We will
                 notify you of any changes by posting the new Privacy Policy on
-                this page and updating the "Last updated" date.
+                this page and updating the &quot;Last updated&quot; date.
               </p>
             </div>
 

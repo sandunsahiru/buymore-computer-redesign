@@ -100,12 +100,12 @@ export default function CookiePolicy() {
                 2. Login Cookies (Essential)
               </h3>
               <p className="text-gray-600 leading-relaxed mb-2">
-                <strong>Duration:</strong> 2 days (standard) or 2 weeks (with "Remember Me")
+                <strong>Duration:</strong> 2 days (standard) or 2 weeks (with &quot;Remember Me&quot;)
               </p>
               <p className="text-gray-600 leading-relaxed mb-4">
                 When you log in to your account, we set up temporary cookies to verify your
                 login status. These cookies are removed when you log out. If you select
-                "Remember Me," your login will persist for two weeks for convenience.
+                &quot;Remember Me,&quot; your login will persist for two weeks for convenience.
               </p>
 
               <h3 className="text-xl font-semibold text-gray-900 mt-6 mb-3">
@@ -300,7 +300,7 @@ export default function CookiePolicy() {
               </h2>
               <p className="text-gray-600 leading-relaxed">
                 When you first visit our website, you will be asked to consent to
-                our use of cookies. By clicking "Accept" or continuing to use our
+                our use of cookies. By clicking &quot;Accept&quot; or continuing to use our
                 website, you consent to our use of cookies as described in this
                 policy. You can withdraw your consent at any time by adjusting
                 your cookie settings in your browser or by contacting us.
@@ -315,7 +315,7 @@ export default function CookiePolicy() {
                 We may update this Cookie Policy from time to time to reflect
                 changes in technology, legislation, or our business practices. We
                 will notify you of any significant changes by posting a notice on
-                our website or updating the "Last updated" date at the top of
+                our website or updating the &quot;Last updated&quot; date at the top of
                 this policy.
               </p>
             </div>
