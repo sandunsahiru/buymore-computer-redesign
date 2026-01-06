@@ -167,6 +167,7 @@ const Contact = () => {
                     <option>Software Development</option>
                     <option>Web Design & Development</option>
                     <option>Digital Marketing</option>
+                    <option>Event Equipment Rental (Projector, Sound, etc.)</option>
                   </optgroup>
                   <option>Other</option>
                 </select>

@@ -43,7 +43,7 @@ const Footer = () => {
               className="h-10 w-auto mb-6 brightness-0 invert"
             />
             <p className="text-gray-400 mb-6 leading-relaxed">
-              Your trusted partner for quality computers, repairs, CCTV systems, and tech gadgets since 2015.
+              Empowering Your Tech Journey with BuyMore
             </p>
             <div className="flex space-x-4">
               <a
