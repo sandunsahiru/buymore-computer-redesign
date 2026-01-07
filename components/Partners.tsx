@@ -8,16 +8,32 @@ const Partners = () => {
 
   const partners = [
     {
-      name: 'Client Partner 1',
+      name: 'Alpha Apparels Ltd',
       logo: '/images/client01.png'
     },
     {
-      name: 'Client Partner 2',
+      name: 'BIMT Campus',
       logo: '/images/client02.png'
     },
     {
-      name: 'Client Partner 3',
+      name: 'Brandix',
       logo: '/images/client03.png'
+    },
+    {
+      name: 'Regional Rural Banks',
+      logo: '/images/client04.png'
+    },
+    {
+      name: 'Sanasa Banks',
+      logo: '/images/client05.png'
+    },
+    {
+      name: 'Matrix (Pvt) Ltd',
+      logo: '/images/client06.png'
+    },
+    {
+      name: 'Irrigation Department',
+      logo: '/images/client07.png'
     },
   ];
 
@@ -52,7 +68,7 @@ const Partners = () => {
             Our <span className="text-primary">Partners</span>
           </h2>
           <p className="text-gray-600 text-lg max-w-2xl mx-auto">
-            Trusted by leading brands worldwide
+            Trusted by leading brands and organizations across Sri Lanka
           </p>
         </div>
 

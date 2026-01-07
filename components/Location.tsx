@@ -7,11 +7,11 @@ const Location = () => {
     {
       id: 'polgahawela',
       name: "Polgahawela Branch",
-      address: "5/1, Colombo Road, Polgahawela",
+      address: "No 5/1, Colombo Road, Polgahawela",
       city: "Kurunegala",
       postalCode: "60300",
       phone: "037 206 8605",
-      whatsapp: "071 636 6865",
+      whatsapp: "070 601 3096",
       hours: {
         weekdays: "Monday - Saturday: 8:00 AM - 6:00 PM",
         weekend: "Sunday: 8:00 AM - 4:30 PM"
@@ -23,11 +23,11 @@ const Location = () => {
     {
       id: 'kurunegala',
       name: "Kurunegala Branch",
-      address: "BuyMore Computer, Kurunegala",
+      address: "184/A Kandy Road",
       city: "Kurunegala",
       postalCode: "",
-      phone: "037 206 8605",
-      whatsapp: "070 300 3091",
+      phone: "037 207 7061",
+      whatsapp: "070 601 3098",
       hours: {
         weekdays: "Monday - Saturday: 8:00 AM - 6:00 PM",
         weekend: "Sunday: 8:00 AM - 4:30 PM"
@@ -163,12 +163,13 @@ const Location = () => {
                 src={selectedLocation.mapUrl}
                 width="100%"
                 height="100%"
-                style={{ border: 0 }}
-                allowFullScreen
-                loading="lazy"
+                style={{ border: 0, minHeight: '400px' }}
+                allowFullScreen={true}
+                loading="eager"
                 referrerPolicy="no-referrer-when-downgrade"
-                className="absolute inset-0"
+                className="absolute inset-0 w-full h-full"
                 title={`${selectedLocation.name} - BuyMore Computer Location`}
+                aria-label={`Map showing ${selectedLocation.name}`}
               ></iframe>
             </div>
           </div>

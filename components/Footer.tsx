@@ -6,12 +6,12 @@ const Footer = () => {
 
   const footerLinks = {
     services: [
-      { name: 'Computer Sales & Repairs', href: '#services' },
-      { name: 'CCTV Systems', href: '#services' },
-      { name: 'Printer Solutions', href: '#services' },
-      { name: 'Software Development', href: '#services' },
-      { name: 'Web Design', href: '#services' },
-      { name: 'Social Media Marketing', href: '#services' },
+      { name: 'IT Hardware/Software Solutions', href: '#services' },
+      { name: 'CCTV & Security Systems', href: '#services' },
+      { name: 'Network Infrastructure', href: '#services' },
+      { name: 'Annual Maintenance Contracts', href: '#services' },
+      { name: '24/7 Monitoring Support', href: '#services' },
+      { name: 'Data Backup Solutions', href: '#services' },
     ],
     quickLinks: [
       { name: 'Home', href: '/' },
@@ -42,9 +42,14 @@ const Footer = () => {
               height={40}
               className="h-10 w-auto mb-6 brightness-0 invert"
             />
-            <p className="text-gray-400 mb-6 leading-relaxed">
-              Empowering Your Tech Journey with BuyMore
+            <p className="text-gray-400 mb-4 leading-relaxed">
+              Your trusted technology partner since 2015, delivering innovative, reliable, and customized IT solutions.
             </p>
+            <div className="text-sm text-gray-500 mb-6">
+              <p className="font-semibold text-gray-300 mb-1">BuyMore Computer (Pvt) Ltd</p>
+              <p>No 5/1 Colombo Road, Polgahawela</p>
+              <p>Established: 2015</p>
+            </div>
             <div className="flex space-x-4">
               <a
                 href="https://facebook.com/buymorecomputerlk"
@@ -129,17 +134,26 @@ const Footer = () => {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
                 </svg>
                 <div>
-                  <div className="font-semibold text-white">Hotline</div>
-                  <div>037 206 8605</div>
+                  <div className="font-semibold text-white">Office</div>
+                  <div>+94 37 206 8605</div>
                 </div>
               </li>
               <li className="flex items-start">
                 <svg className="w-5 h-5 mr-3 text-secondary flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z" />
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
                 </svg>
                 <div>
-                  <div className="font-semibold text-white">Technical</div>
-                  <div>070 300 3091</div>
+                  <div className="font-semibold text-white">Director</div>
+                  <div>+94 71 63 66 865</div>
+                </div>
+              </li>
+              <li className="flex items-start">
+                <svg className="w-5 h-5 mr-3 text-secondary flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 7h6m0 10v-3m-3 3h.01M9 17h.01M9 14h.01M12 14h.01M15 11h.01M12 11h.01M9 11h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z" />
+                </svg>
+                <div>
+                  <div className="font-semibold text-white">Accounts</div>
+                  <div>+94 70 300 3094</div>
                 </div>
               </li>
               <li className="flex items-start">

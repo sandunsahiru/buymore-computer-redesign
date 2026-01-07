@@ -3,69 +3,69 @@ const Services = () => {
     {
       icon: (
         <svg className="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z" />
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z" />
         </svg>
       ),
-      title: "Computer Repair & Maintenance",
-      description: "Expert repair services for desktops and laptops with genuine parts and professional technicians.",
-      features: ["Hardware Repairs", "Software Troubleshooting", "Virus Removal", "Data Recovery", "System Upgrades"],
+      title: "IT Hardware & Software Solutions",
+      description: "Complete range of IT products including computers, laptops, printers, mobile phones, and software solutions for businesses and individuals.",
+      features: ["Latest Computer & Laptop Models", "Mobile Devices", "Printers & Peripherals", "Licensed Software", "Genuine Products Only"],
       badge: "Most Popular"
     },
     {
       icon: (
         <svg className="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z" />
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z" />
         </svg>
       ),
-      title: "CCTV Installation & Setup",
-      description: "Professional installation and configuration of security camera systems for complete peace of mind.",
-      features: ["Site Survey", "Professional Installation", "System Configuration", "Remote Access Setup", "Training & Support"],
+      title: "CCTV & Security Systems",
+      description: "Professional security solutions including CCTV installation, monitoring, and complete security infrastructure for businesses and homes.",
+      features: ["HD Camera Installation", "24/7 Monitoring Support", "Remote Viewing", "Security Infrastructure", "Authorized Hikvision & Dahua Partner"],
+      badge: "24/7 Support"
+    },
+    {
+      icon: (
+        <svg className="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 12h14M5 12a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v4a2 2 0 01-2 2M5 12a2 2 0 00-2 2v4a2 2 0 002 2h14a2 2 0 002-2v-4a2 2 0 00-2-2m-2-4h.01M17 16h.01" />
+        </svg>
+      ),
+      title: "Network Infrastructure",
+      description: "Complete network solutions including design, installation, and maintenance of business networks with optimal performance and security.",
+      features: ["Network Design & Setup", "Router & Switch Configuration", "WiFi Solutions", "Network Security", "Performance Optimization"],
       badge: null
     },
     {
       icon: (
         <svg className="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4" />
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
         </svg>
       ),
-      title: "Printer Repair & Service",
-      description: "Complete printer repair and maintenance services for all major brands with quick turnaround.",
-      features: ["All Brands Supported", "Parts Replacement", "Print Quality Issues", "Maintenance Plans", "Urgent Repairs"],
+      title: "Annual Maintenance Contracts (AMC)",
+      description: "Comprehensive maintenance packages with transparent pricing, proactive system monitoring, and priority support to safeguard your IT investments.",
+      features: ["Preventive Maintenance", "Priority Support", "Transparent Pricing", "Regular System Checks", "Discounts on Pre-Payment"],
+      badge: "Best Value"
+    },
+    {
+      icon: (
+        <svg className="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 7v10c0 2.21 3.582 4 8 4s8-1.79 8-4V7M4 7c0 2.21 3.582 4 8 4s8-1.79 8-4M4 7c0-2.21 3.582-4 8-4s8 1.79 8 4m0 5c0 2.21-3.582 4-8 4s-8-1.79-8-4" />
+        </svg>
+      ),
+      title: "Data Backup Solutions",
+      description: "Secure and reliable data backup systems to protect your critical business data with automated backups and quick recovery options.",
+      features: ["Automated Backups", "Cloud & Local Storage", "Disaster Recovery", "Data Encryption", "24/7 Monitoring"],
       badge: null
     },
     {
       icon: (
         <svg className="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z" />
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
         </svg>
       ),
-      title: "Software Development",
-      description: "Custom software solutions tailored to your business needs using modern technologies and best practices.",
-      features: ["Web Applications", "Mobile Apps", "Custom Solutions", "API Integration", "Database Design"],
-      badge: "Professional"
-    },
-    {
-      icon: (
-        <svg className="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-        </svg>
-      ),
-      title: "Web Design & Development",
-      description: "Professional, responsive websites that drive results and grow your online presence effectively.",
-      features: ["Responsive Design", "E-commerce Sites", "CMS Development", "SEO Optimization", "Hosting & Support"],
-      badge: "Professional"
-    },
-    {
-      icon: (
-        <svg className="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M11 5.882V19.24a1.76 1.76 0 01-3.417.592l-2.147-6.15M18 13a3 3 0 100-6M5.436 13.683A4.001 4.001 0 017 6h1.832c4.1 0 7.625-1.234 9.168-3v14c-1.543-1.766-5.067-3-9.168-3H7a3.988 3.988 0 01-1.564-.317z" />
-        </svg>
-      ),
-      title: "Digital Marketing",
-      description: "Strategic digital marketing services to boost your brand visibility and engage your target audience.",
-      features: ["Social Media Marketing", "Content Creation", "Campaign Management", "Analytics & Reporting", "Brand Strategy"],
-      badge: "Professional"
+      title: "Technical Repair Services",
+      description: "Expert repair services for computers, printers, mobile devices, and all IT equipment with rapid response and genuine parts.",
+      features: ["Computer & Laptop Repairs", "Printer Servicing", "Mobile Device Repairs", "Hardware Upgrades", "Quick Turnaround"],
+      badge: "Expert Service"
     },
     {
       icon: (
