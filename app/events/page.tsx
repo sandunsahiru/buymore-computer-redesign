@@ -15,6 +15,17 @@ export default function EventsPage() {
       image: '/images/events/01/main.jpg',
       category: 'Tech Talk',
       status: 'Completed'
+    },
+    {
+      id: 'kurunegala-branch-opening',
+      title: 'BuyMore Computer Kurunegala Branch Opening',
+      tagline: 'Grand opening of our new Kurunegala branch, bringing quality tech solutions closer to you',
+      date: 'September 26, 2025',
+      time: '8:00 AM onwards',
+      venue: '184/A Kandy Road, Kurunegala',
+      image: '/images/events/02/image.png',
+      category: 'Grand Opening',
+      status: 'Completed'
     }
   ];
 
