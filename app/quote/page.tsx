@@ -9,7 +9,8 @@ export default function QuotePage() {
   const [formData, setFormData] = useState({
     firstName: '',
     lastName: '',
-    contact: '',
+    email: '',
+    mobile: '',
     serviceType: '',
     // POS System fields
     posHosting: '',
@@ -142,7 +143,7 @@ export default function QuotePage() {
   };
 
   const handleNext = () => {
-    if (step === 1 && formData.firstName && formData.lastName && formData.contact) {
+    if (step === 1 && formData.firstName && formData.lastName && formData.email && formData.mobile) {
       setStep(2);
     } else if (step === 2 && formData.serviceType) {
       if (formData.serviceType === 'pos-system') {
@@ -170,6 +171,22 @@ export default function QuotePage() {
     else if (step === 7 && formData.serviceType === 'pos-system') setStep(6);
     else if (step === 7) setStep(5);
     else setStep(step - 1);
+  };
+
+  const handleReset = () => {
+    setFormData({
+      firstName: '',
+      lastName: '',
+      email: '',
+      mobile: '',
+      serviceType: '',
+      posHosting: '',
+      posPlatform: '',
+      posProductRange: '',
+      customRequirements: ''
+    });
+    setEstimatedCost(0);
+    setStep(1);
   };
 
   const progressPercentage = (step / 7) * 100;
@@ -274,7 +291,7 @@ export default function QuotePage() {
                       value={formData.firstName}
                       onChange={(e) => setFormData({ ...formData, firstName: e.target.value })}
                       className="w-full px-4 py-3 rounded-lg border-2 border-gray-200 focus:border-primary focus:ring-2 focus:ring-primary/20 transition-all outline-none"
-                      placeholder="John"
+                      placeholder="Alex"
                     />
                   </div>
 
@@ -287,22 +304,37 @@ export default function QuotePage() {
                       value={formData.lastName}
                       onChange={(e) => setFormData({ ...formData, lastName: e.target.value })}
                       className="w-full px-4 py-3 rounded-lg border-2 border-gray-200 focus:border-primary focus:ring-2 focus:ring-primary/20 transition-all outline-none"
-                      placeholder="Doe"
+                      placeholder="Warren"
                     />
                   </div>
                 </div>
 
-                <div>
-                  <label className="block text-sm font-semibold text-gray-700 mb-2">
-                    Email or WhatsApp Number *
-                  </label>
-                  <input
-                    type="text"
-                    value={formData.contact}
-                    onChange={(e) => setFormData({ ...formData, contact: e.target.value })}
-                    className="w-full px-4 py-3 rounded-lg border-2 border-gray-200 focus:border-primary focus:ring-2 focus:ring-primary/20 transition-all outline-none"
-                    placeholder="john@example.com or +94 70 123 4567"
-                  />
+                <div className="grid sm:grid-cols-2 gap-6">
+                  <div>
+                    <label className="block text-sm font-semibold text-gray-700 mb-2">
+                      Email Address *
+                    </label>
+                    <input
+                      type="email"
+                      value={formData.email}
+                      onChange={(e) => setFormData({ ...formData, email: e.target.value })}
+                      className="w-full px-4 py-3 rounded-lg border-2 border-gray-200 focus:border-primary focus:ring-2 focus:ring-primary/20 transition-all outline-none"
+                      placeholder="alex@buymorecomputer.lk"
+                    />
+                  </div>
+
+                  <div>
+                    <label className="block text-sm font-semibold text-gray-700 mb-2">
+                      Mobile Number *
+                    </label>
+                    <input
+                      type="tel"
+                      value={formData.mobile}
+                      onChange={(e) => setFormData({ ...formData, mobile: e.target.value })}
+                      className="w-full px-4 py-3 rounded-lg border-2 border-gray-200 focus:border-primary focus:ring-2 focus:ring-primary/20 transition-all outline-none"
+                      placeholder="+94 70 123 4567"
+                    />
+                  </div>
                 </div>
               </div>
             )}
@@ -588,8 +620,12 @@ export default function QuotePage() {
                         <p className="font-semibold text-gray-900">{formData.firstName} {formData.lastName}</p>
                       </div>
                       <div>
-                        <span className="text-sm text-gray-600">Contact:</span>
-                        <p className="font-semibold text-gray-900">{formData.contact}</p>
+                        <span className="text-sm text-gray-600">Email:</span>
+                        <p className="font-semibold text-gray-900">{formData.email}</p>
+                      </div>
+                      <div>
+                        <span className="text-sm text-gray-600">Mobile:</span>
+                        <p className="font-semibold text-gray-900">{formData.mobile}</p>
                       </div>
                       <div>
                         <span className="text-sm text-gray-600">Service:</span>
@@ -601,15 +637,27 @@ export default function QuotePage() {
                   </div>
                 )}
 
-                <button
-                  onClick={() => {
-                    alert('Your quote request has been submitted! Our team will contact you within 24 hours.');
-                    window.location.href = '/';
-                  }}
-                  className="btn-primary w-full text-lg py-4"
-                >
-                  Request Final Quotation
-                </button>
+                <div className="space-y-4">
+                  <button
+                    onClick={() => {
+                      alert('Your quote request has been submitted! Our team will contact you within 24 hours.');
+                      window.location.href = '/';
+                    }}
+                    className="btn-primary w-full text-lg py-4"
+                  >
+                    Request Final Quotation
+                  </button>
+
+                  <button
+                    onClick={handleReset}
+                    className="w-full px-6 py-4 border-2 border-primary rounded-lg font-semibold text-primary hover:bg-primary hover:text-white transition-all duration-300 flex items-center justify-center gap-2"
+                  >
+                    <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
+                    </svg>
+                    Start New Estimation
+                  </button>
+                </div>
               </div>
             )}
 
@@ -627,7 +675,7 @@ export default function QuotePage() {
                 <button
                   onClick={handleNext}
                   disabled={
-                    (step === 1 && (!formData.firstName || !formData.lastName || !formData.contact)) ||
+                    (step === 1 && (!formData.firstName || !formData.lastName || !formData.email || !formData.mobile)) ||
                     (step === 2 && !formData.serviceType) ||
                     (step === 3 && !formData.posHosting) ||
                     (step === 4 && !formData.posPlatform) ||
@@ -635,7 +683,7 @@ export default function QuotePage() {
                     (step === 6 && !formData.posProductRange)
                   }
                   className={`flex-1 px-6 py-3 rounded-lg font-semibold transition-all ${
-                    (step === 1 && (!formData.firstName || !formData.lastName || !formData.contact)) ||
+                    (step === 1 && (!formData.firstName || !formData.lastName || !formData.email || !formData.mobile)) ||
                     (step === 2 && !formData.serviceType) ||
                     (step === 3 && !formData.posHosting) ||
                     (step === 4 && !formData.posPlatform) ||
