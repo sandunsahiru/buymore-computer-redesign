@@ -12,9 +12,9 @@ const config: Config = {
         background: "var(--background)",
         foreground: "var(--foreground)",
         primary: {
-          DEFAULT: '#0066CC',
-          dark: '#004C99',
-          light: '#3385D6',
+          DEFAULT: '#034EA2',
+          dark: '#023A7A',
+          light: '#0562C7',
         },
         secondary: {
           DEFAULT: '#87CEEB',

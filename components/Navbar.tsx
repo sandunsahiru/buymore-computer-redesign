@@ -12,9 +12,8 @@ const Navbar = () => {
     { name: 'About Us', href: '/about' },
     { name: 'Products', href: '#products' },
     { name: 'Services', href: '#services' },
-    { name: 'CCTV Quotation', href: '#cctv' },
     { name: 'Shop', href: 'https://buymore.lk', external: true },
-    { name: 'Contact', href: '#contact' },
+    { name: 'Contact', href: '/contact' },
   ];
 
   return (
@@ -64,7 +63,7 @@ const Navbar = () => {
 
           {/* CTA Button */}
           <div className="hidden lg:block">
-            <Link href="#contact" className="btn-primary text-sm xl:text-base">
+            <Link href="/contact" className="btn-primary text-sm xl:text-base">
               Get Quote
             </Link>
           </div>
@@ -124,8 +123,8 @@ const Navbar = () => {
               )
             ))}
             <div className="px-4 py-3">
-              <Link 
-                href="#contact" 
+              <Link
+                href="/contact"
                 className="btn-primary block text-center w-full"
                 onClick={() => setIsMobileMenuOpen(false)}
               >

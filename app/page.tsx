@@ -5,7 +5,7 @@ import Products from '@/components/Products';
 import Services from '@/components/Services';
 import Partners from '@/components/Partners';
 import Location from '@/components/Location';
-import Contact from '@/components/Contact';
+import Newsletter from '@/components/Newsletter';
 import Footer from '@/components/Footer';
 
 export default function Home() {
@@ -19,7 +19,7 @@ export default function Home() {
         <Products />
         <Partners />
         <Location />
-        <Contact />
+        <Newsletter />
       </main>
       <Footer />
     </>
