@@ -10,8 +10,9 @@ const Navbar = () => {
   const navLinks = [
     { name: 'Home', href: '/' },
     { name: 'About Us', href: '/about' },
-    { name: 'Products', href: '#products' },
+    { name: 'Products', href: '/products' },
     { name: 'Services', href: '#services' },
+    { name: 'Events', href: '/events' },
     { name: 'Shop', href: 'https://buymore.lk', external: true },
     { name: 'Contact', href: '/contact' },
   ];
