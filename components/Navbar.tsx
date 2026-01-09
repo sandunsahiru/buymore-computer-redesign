@@ -64,7 +64,7 @@ const Navbar = () => {
 
           {/* CTA Button */}
           <div className="hidden lg:block">
-            <Link href="/contact" className="btn-primary text-sm xl:text-base">
+            <Link href="/quote" className="btn-primary text-sm xl:text-base">
               Get Quote
             </Link>
           </div>
@@ -125,7 +125,7 @@ const Navbar = () => {
             ))}
             <div className="px-4 py-3">
               <Link
-                href="/contact"
+                href="/quote"
                 className="btn-primary block text-center w-full"
                 onClick={() => setIsMobileMenuOpen(false)}
               >
