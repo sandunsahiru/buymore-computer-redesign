@@ -63,11 +63,10 @@ const Location = () => {
               <button
                 key={location.id}
                 onClick={() => setSelectedLocation(location)}
-                className={`px-6 py-3 rounded-lg font-semibold transition-all duration-300 ${
-                  selectedLocation.id === location.id
-                    ? 'bg-primary text-white shadow-md'
-                    : 'text-gray-600 hover:bg-gray-100'
-                }`}
+                className={`px-6 py-3 rounded-lg font-semibold transition-all duration-300 ${selectedLocation.id === location.id
+                  ? 'bg-primary text-white shadow-md'
+                  : 'text-gray-600 hover:bg-gray-100'
+                  }`}
               >
                 {location.name}
                 {location.isMain && (
@@ -184,13 +183,13 @@ const Location = () => {
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <a
-              href="tel:0372068605"
+              href="tel:0707696666"
               className="btn-primary bg-white text-primary hover:bg-gray-100"
             >
               Call Now
             </a>
             <a
-              href="https://wa.me/94716366865"
+              href="https://wa.me/94707696666"
               target="_blank"
               rel="noopener noreferrer"
               className="btn-primary bg-secondary text-primary hover:bg-secondary-dark"

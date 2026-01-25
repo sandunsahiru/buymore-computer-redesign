@@ -25,7 +25,7 @@ const Navbar = () => {
           <div className="flex-shrink-0">
             <Link href="/">
               <Image
-                src="https://buymorecomputer.lk/wp-content/uploads/2024/12/1000x-Logo-2048x381.png"
+                src="/images/logo.png?v=2"
                 alt="Buymore Computer"
                 width={160}
                 height={30}

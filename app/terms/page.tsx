@@ -205,7 +205,7 @@ export default function TermsOfService() {
                 <li>Damage or loss of equipment will be charged at replacement cost</li>
                 <li>Client is responsible for equipment security during rental period</li>
                 <li>
-                  Contact us for bookings: 037 206 8605 | WhatsApp: 071 636 6865, 070 300 3091, 070 601 3095
+                  Contact us for bookings: BuyMore Hotline (070) 769 6666
                 </li>
               </ul>
             </div>
@@ -297,10 +297,7 @@ export default function TermsOfService() {
                 </div>
                 <div>
                   <strong className="block text-gray-900 mb-1">Contact:</strong>
-                  <p>Phone: 037 206 8605</p>
-                  <p>Technical Support: 070 300 3091</p>
-                  <p>CCTV Inquiries: 070 601 3095</p>
-                  <p>WhatsApp: 071 636 6865, 070 300 3091, 070 601 3095</p>
+                  <p>BuyMore Hotline: (070) 769 6666</p>
                   <p>Email: info@buymorecomputer.lk</p>
                   <p>Website: www.buymorecomputer.lk</p>
                 </div>

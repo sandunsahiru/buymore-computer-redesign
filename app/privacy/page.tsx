@@ -43,7 +43,7 @@ export default function PrivacyPolicy() {
               <p className="text-gray-600 leading-relaxed">
                 <strong>Buymore Computer</strong><br />
                 5/1, Colombo Road, Polgahawela, Kurunegala 60300, Sri Lanka<br />
-                Phone: 037 206 8605<br />
+                BuyMore Hotline: (070) 769 6666<br />
                 Email: info@buymorecomputer.lk<br />
                 Website: www.buymorecomputer.lk
               </p>
@@ -124,7 +124,7 @@ export default function PrivacyPolicy() {
               <ul className="list-disc pl-6 text-gray-600 space-y-2">
                 <li>Process and fulfill your orders and service requests</li>
                 <li>Schedule appointments and on-site visits</li>
-                <li>Provide technical support via phone (037 206 8605, 070 300 3091) or WhatsApp</li>
+                <li>Provide technical support via BuyMore Hotline (070) 769 6666 or WhatsApp</li>
                 <li>Send service-related notifications and updates</li>
                 <li>Improve our services and customer experience</li>
                 <li>Maintain warranty and service records</li>
@@ -254,7 +254,7 @@ export default function PrivacyPolicy() {
               </ul>
               <p className="text-gray-600 leading-relaxed">
                 To exercise any of these rights, please contact us at info@buymorecomputer.lk or
-                call 037 206 8605. We will respond to your request within a reasonable timeframe.
+                call our hotline (070) 769 6666. We will respond to your request within a reasonable timeframe.
               </p>
             </div>
 
@@ -330,9 +330,7 @@ export default function PrivacyPolicy() {
                 </div>
                 <div>
                   <strong className="block text-gray-900 mb-1">Contact:</strong>
-                  <p>Phone: 037 206 8605</p>
-                  <p>Technical Support: 070 300 3091</p>
-                  <p>WhatsApp: 071 636 6865, 070 300 3091, 070 601 3095</p>
+                  <p>BuyMore Hotline: (070) 769 6666</p>
                   <p>Email: info@buymorecomputer.lk</p>
                 </div>
                 <div>

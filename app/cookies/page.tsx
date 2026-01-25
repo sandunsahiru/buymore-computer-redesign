@@ -40,7 +40,7 @@ export default function CookiePolicy() {
               <p className="text-gray-600 leading-relaxed">
                 <strong>Contact Information:</strong><br />
                 Main Branch: 5/1, Colombo Road, Polgahawela, Kurunegala 60300<br />
-                Phone: 037 206 8605 | Email: info@buymorecomputer.lk<br />
+                BuyMore Hotline: (070) 769 6666 | Email: info@buymorecomputer.lk<br />
                 Website: www.buymorecomputer.lk
               </p>
             </div>
@@ -355,9 +355,7 @@ export default function CookiePolicy() {
                 </div>
                 <div>
                   <strong className="block text-gray-900 mb-1">Contact:</strong>
-                  <p>Phone: 037 206 8605</p>
-                  <p>Technical Support: 070 300 3091</p>
-                  <p>WhatsApp: 071 636 6865, 070 300 3091, 070 601 3095</p>
+                  <p>BuyMore Hotline: (070) 769 6666</p>
                   <p>Email: info@buymorecomputer.lk</p>
                   <p>Website: www.buymorecomputer.lk</p>
                 </div>
